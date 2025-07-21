@@ -1,0 +1,433 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans';
+    font-weight: bolder;
+}
+/*header css*/
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+#fakeHeader{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#logo{
+    height: 65%;
+    margin-left: 20px;
+    
+}
+
+#logo img{
+    height: 80%;
+    object-fit: cover; /* this lets the original dimension of image not disrupt*/
+  
+}
+
+.text{
+    color: rgb(12, 31, 98);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+} 
+.text:hover{
+    color: rgb(69, 184, 250);
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 5px;
+} 
+
+#contactDetails{
+    align-items: center;
+    align-self: center;
+    margin-left: 50px;
+    color: rgb(12, 31, 98);
+}
+#contactDetails:hover{
+    align-items: center;
+    align-self: center;
+    margin-left: 50px;
+    color:  rgb(24, 73, 164);;
+}
+
+#contactDetails u{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.icons{
+    margin: 10px;
+    font-size: 1.3em;
+    padding: 8px;
+    color: black;
+}
+.icons:hover{
+    font-size: 1.3em;
+    color: rgb(24, 73, 164);
+    border-radius: 100px;
+    background-color: rgb(217, 245, 245);
+    padding: 8px;
+}
+
+#login{
+    font-size: 1.3em;
+    padding: 8px;
+    color: black;
+}
+#login:hover{
+    font-size: 1.3em;
+    color: rgb(24, 73, 164);
+    border-radius: 100px;
+    background-color: rgb(217, 245, 245);
+    padding: 8px;
+}
+
+#tryButton {
+    font-size: 1.3em;
+    background-color: rgb(35, 152, 35);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 10px;
+}
+#tryButton:hover {
+    font-size: 1.3em;
+    background-color: rgb(13, 55, 13);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+
+#page1{
+    height: 85%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/*page 1 css*/
+
+#script{
+    height: 8%;
+    background-color: rgb(27, 4, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+
+}
+#script u{
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 0.8em;
+    text-align: center;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+#script img{
+    margin-right: 20px;
+}
+#script u:hover{
+    text-decoration: none;
+}
+
+
+.content{
+    height: 77%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#box1{
+    height: 90%;
+    width: 46%;
+    margin-left: 80px;
+}
+#head{
+    text-align: center;
+    padding: 5px ;
+    margin-top: 15px;
+    font-size: 1.8em;
+    color: rgb(13, 13, 99);
+    width: 70%;
+    text-align: left;
+    margin-left: 15px;
+
+}
+#next{
+    text-align: center;
+    padding: 5px ;
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    width: 70%;
+    text-align: left;
+    font-weight: 200;
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}
+#button1{
+    background-color: rgb(35, 60, 255);
+    color: white;
+    font-size: 0.5cm;
+    max-width: 250px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 4px;
+
+}
+#button1:hover{
+    background-color: rgb(14, 14, 91);
+}
+#button2{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid rgb(35, 60, 255);
+    font-weight: 500;
+    margin: 8px;
+    color: rgb(35, 60, 255);
+    border-radius: 4px;
+    font-size: 0.5cm;
+    max-width: 250px;
+    text-align: center;
+}
+#button2:hover{
+    background-color: rgb(216, 244, 254);
+    border-color: rgb(14, 14, 91);
+    color: rgb(14, 14, 91);
+}
+#box2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+#box2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+#box2 video {
+    width: 80%;
+    position: relative; 
+    z-index: 2; 
+    border-radius: 15px;
+    opacity: 1;
+}
+#bottom{
+    height: 15%;
+    display: flex;
+    font-weight: 600;
+    color:  rgb(12, 31, 98);;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* page2 css */
+#page2 {
+    height: 85%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    height: 85%; 
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#card {
+    height: 75%;
+    box-shadow: 5px 5px 5px rgb(185, 185, 185);
+    width: 20%;
+    margin-top: 60px;
+    margin-left: 25px; 
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card img {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#card h4 {
+    margin-top: 15px;
+    color: rgb(0, 0, 90);
+    font-size: 0.8cm;
+    padding-left: 20px;
+}
+
+#card p {
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 0.6cm;
+    font-weight: 300;
+}
+
+#card a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: larger;
+    padding: 20px;
+    align-self: flex-start;
+}
+
+#viewProduct {
+    align-items: center;
+    height: 20%; 
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em; 
+}
+#viewProduct #main{
+    height: 35%;
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(35, 123, 255);
+    font-size: 1em;
+    border: 2px solid rgb(35, 123, 255);;
+    border-radius: 8px;
+    font-weight: 400;
+}
+#viewProduct #main:hover{
+    color: darkblue;
+    border-color: darkblue;
+    background-color: rgb(209, 236, 245);
+}
+
+/* page 3 css */
+#page3{
+    height: 85%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+#background-container{
+    height:100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+#background-container img{
+    height: 100%;
+    margin-top: -230px;
+    width: 100%;
+}
+#text-container{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(126, 157, 16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#page3Box1{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+#page3Box2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+#page3Box1 h1{
+    text-align: center;
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 2.7em;
+    padding: 10px;
+}
+#page3Box1 p{
+    text-align: center;
+    font-size: 0.5cm;
+    
+}

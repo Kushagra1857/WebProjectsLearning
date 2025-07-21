@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 15vh);
+    grid-template-rows: repeat(3, 15vh);
+}
+.box{
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 13vh;
+    
+}
+
+.box:hover{
+    background-color: rgb(255, 222, 178);
+}
+
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+.gameInfo{
+    margin: 50px;
+    font-size: 1.5em;
+}
