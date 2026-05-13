@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+}
+
+span {
+  display: block;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    font-size: 1em;
+}
+.main {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#green {
+  background: green;
+}
+
+#purple {
+  background: purple;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
