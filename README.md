@@ -15,6 +15,7 @@ Most projects in this repository are small, browser-based practice apps that can
 - CSS3
 - JavaScript
 - Static assets such as images, SVGs, WebP files, and video
+- The assests are also available in the repo per project
 - React, Node.js, Express, MongoDB, and Socket.IO in local-only ignored projects
 
 ## Tracked Projects
